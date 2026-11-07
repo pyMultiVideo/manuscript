@@ -1,0 +1,26 @@
+{
+    "test_name": "fps_comp_standard_slow",
+    "recording_duration": 60,
+    "parameter_sweeps": {
+        "fps": [
+            30,
+            60,
+            90,
+            120,
+            150
+        ],
+        "compression_standard": [
+            "h264",
+            "h265"
+        ]
+    },
+    "default_parameters": {
+        "n_cameras": 6,
+        "fps": 60,
+        "downsampling_factor": 1,
+        "camera_update_rate": 30,
+        "crf": 28,
+        "encoding_speed": "slow",
+        "compression_standard": "h264"
+    }
+}
