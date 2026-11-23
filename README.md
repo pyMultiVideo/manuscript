@@ -14,8 +14,7 @@ Command Line
 To generate figures directly from the terminal:
 
 ```bash
-python ./code/generate-figures.py --test_name="photometry-1"
-python ./code/generate-figures.py --test_name="maze-right"
+python ./code/generate-figures.py
 ```
 
 ## Repository Structure
